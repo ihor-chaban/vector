@@ -87,7 +87,7 @@ void vector::clear() {
 	int *temp = new int[0];
 	delete[] mData;
 	mData = temp;
-	mData = 0;
+	mSize = 0;
 }
 
 int vector::find(int value) const {
